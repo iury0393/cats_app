@@ -1,5 +1,5 @@
 <h1 align="center"><img src="./assets/flutter-logo.png" alt="Flutter" /></h1>
-<p align="center">Credit App</p>
+<p align="center">Cats App</p>
 <p align="center">
   <a href="https://flutter.dev/">
     <img src="https://img.shields.io/badge/Flutter-CP-blue?style=plastic&logo=Flutter" alt="Flutter" />
