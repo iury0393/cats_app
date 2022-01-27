@@ -5,7 +5,6 @@
     <img src="https://img.shields.io/badge/Flutter-CP-blue?style=plastic&logo=Flutter" alt="Flutter" />
   </a>
 </p>
----
 
 ## About
 
@@ -15,7 +14,7 @@ A app that generate random things about cats.
 
 <ul>
     <li>Flutter</li>
-    <li>Cats Api - [Cataas](https://cataas.com/#/)</li>
+    <li>Cats Api - https://cataas.com/#/</li>
 </ul>
 
 ## Installation
