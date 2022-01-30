@@ -3,7 +3,6 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import '../text_styles.dart';
 
 Future<dynamic> showNativeDialog<T>(
     {required BuildContext context, required WidgetBuilder builder}) {
@@ -70,17 +69,17 @@ class NativeDialog extends StatelessWidget {
         builder: (context) => AlertDialog(
           title: Text(
             'Error',
-            style: TextStyles.paragraph(
-              TextSize.medium,
-              weight: FontWeight.bold,
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
               color: Colors.red,
             ),
           ),
           content: Text(
             message,
-            style: TextStyles.paragraph(
-              TextSize.small,
-              weight: FontWeight.bold,
+            style: TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.bold,
             ),
           ),
           actions: <Widget>[
@@ -91,8 +90,8 @@ class NativeDialog extends StatelessWidget {
               ),
               child: Text(
                 'Ok',
-                style: TextStyles.paragraph(
-                  TextSize.medium,
+                style: TextStyle(
+                  fontSize: 16,
                 ),
               ),
               onPressed: () => Modular.to.pop(),
@@ -106,25 +105,25 @@ class NativeDialog extends StatelessWidget {
         builder: (context) => CupertinoAlertDialog(
           title: Text(
             'Error',
-            style: TextStyles.paragraph(
-              TextSize.medium,
-              weight: FontWeight.bold,
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
               color: Colors.red,
             ),
           ),
           content: Text(
             message,
-            style: TextStyles.paragraph(
-              TextSize.small,
-              weight: FontWeight.bold,
+            style: TextStyle(
+              fontSize: 14,
+              fontWeight: FontWeight.bold,
             ),
           ),
           actions: <Widget>[
             CupertinoDialogAction(
               child: Text(
                 'Ok',
-                style: TextStyles.paragraph(
-                  TextSize.medium,
+                style: TextStyle(
+                  fontSize: 16,
                 ),
               ),
               isDefaultAction: true,
@@ -187,7 +186,7 @@ class NativeDialogDetails extends StatelessWidget {
     return CupertinoAlertDialog(
       title: Text(
         title ?? '',
-        style: TextStyles.paragraph(TextSize.small, weight: FontWeight.bold),
+        style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
       ),
       content: body,
       actions: actions,
@@ -198,7 +197,7 @@ class NativeDialogDetails extends StatelessWidget {
     return AlertDialog(
       title: Text(
         title ?? '',
-        style: TextStyles.paragraph(TextSize.small, weight: FontWeight.bold),
+        style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
       ),
       content: body,
       actions: actions,

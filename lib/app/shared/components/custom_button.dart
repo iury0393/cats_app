@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../text_styles.dart';
 
 class RoundedButton extends StatefulWidget {
   final String title;
@@ -51,9 +50,9 @@ class _RoundedButtonState extends State<RoundedButton> {
             textAlign: TextAlign.center,
             maxLines: widget.maxLines ?? 2,
             overflow: TextOverflow.ellipsis,
-            style: TextStyles.paragraph(
-              widget.titleSize,
-              weight: FontWeight.bold,
+            style: TextStyle(
+              fontSize: widget.titleSize,
+              fontWeight: FontWeight.bold,
               color: widget.titleColor,
             ),
           ),

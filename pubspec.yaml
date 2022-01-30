@@ -38,6 +38,12 @@ flutter:
   assets:
     - assets/
 
+  fonts:
+  - family: Meows
+    fonts:
+      - asset: assets/font/Meows.ttf
+        weight: 400
+
 vars:
   clean: flutter clean
   get: flutter pub get
