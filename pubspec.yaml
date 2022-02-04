@@ -23,12 +23,14 @@ dependencies:
   logger: ^1.1.0
   google_fonts: ^2.2.0
   animate_do: ^2.1.0
+  dio: ^4.0.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^1.0.0
+  pretty_dio_logger: ^1.1.1
   mobx_codegen: ^2.0.5+2
   build_runner: ^2.1.7
 

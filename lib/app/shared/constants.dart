@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 
 const kClientId = '3dc1d68e-85b4-11ec-a8a3-0242ac120002';
-const kBaseURL = '';
+const kBaseURL = 'cataas.com';
 var kLogger = Logger();
 
 /// COLORS
