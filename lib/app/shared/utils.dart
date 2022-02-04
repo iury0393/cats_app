@@ -39,13 +39,14 @@ class Utils {
     return MediaQuery.of(context).size;
   }
 
-  static double displayHeight(BuildContext context) {
+  static double displayHeight(BuildContext context,
+      {double dividedBy = 1, double reducedBy = 0.0}) {
     kLogger.d('Height = ${displaySize(context).height}');
-    return displaySize(context).height;
+    return (displaySize(context).height - reducedBy) / dividedBy;
   }
 
-  static double displayWidth(BuildContext context) {
+  static double displayWidth(BuildContext context, {double dividedBy = 1, double reducedBy = 0.0}) {
     kLogger.d('Width = ${displaySize(context).width}');
-    return displaySize(context).width;
+    return (displaySize(context).width - reducedBy) / dividedBy;
   }
 }
