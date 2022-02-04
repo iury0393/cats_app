@@ -1,6 +1,10 @@
-// GERAR NOVO CODIGO QUANDO FOR USAR
+import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
 
-const kClientId = '23e6bf7e-6c12-493f-8e84-6ccae97e39ca';
+const kClientId = '3dc1d68e-85b4-11ec-a8a3-0242ac120002';
 const kBaseURL = '';
 var kLogger = Logger();
+
+/// COLORS
+var kPrimaryColor = Color(0xFFFFCA0E).withOpacity(0.46);
+const kAppBarColor = Color(0xFFFFCA0E);
