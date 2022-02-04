@@ -10,8 +10,7 @@ class AppWidget extends StatelessWidget {
       title: 'Caats App',
       theme: ThemeData(
         fontFamily: 'Meows',
-        scaffoldBackgroundColor: kPrimaryColor,
-        appBarTheme: AppBarTheme(color: kAppBarColor),
+        appBarTheme: AppBarTheme(color: kPrimaryColor),
       ),
     ).modular();
   }

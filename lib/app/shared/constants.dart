@@ -6,5 +6,4 @@ const kBaseURL = '';
 var kLogger = Logger();
 
 /// COLORS
-var kPrimaryColor = Color(0xFFFFCA0E).withOpacity(0.46);
-const kAppBarColor = Color(0xFFFFCA0E);
+var kPrimaryColor = Color(0xFFFFCA0E);
